@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="grid-container">
+            <div class="grid-top-corner"></div>
+            <div class="grid-header">Pomodoro Clock</div>
+            <div class="grid-top-corner" id="audio"><i class="fa fa-bell-slash-o"></i></div>
+            <div class="grid-time-header">Work Time</div>
+            <div></div>          
+            <div class="grid-time-header">Break Time</div>
+            <div id="btn-worktime-up"><i class="fa fa-angle-up"></i></div>
+            <div id="worktime">25</div>
+            <div id="btn-worktime-down"><i class="fa fa-angle-down"></i></div>
+            <div></div>
+            <div id="btn-breaktime-up"><i class="fa fa-angle-up"></i></div>
+            <div id="breaktime">5</div>
+            <div id="btn-breaktime-down"><i class="fa fa-angle-down"></i></div>
+            <div id="grid-timer">00:00:00</div>
+            <div id="grid-status">&nbsp;</div>                
+            <div id="btn-stop"><i class="fa fa-stop"></i></div>
+            <div id="btn-play"><i id="icon-play" class="fa fa-play"></i></div>  
+            <div id="btn-reset"><i class="fa fa-undo"></i></div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script> 
+</html>

@@ -1,0 +1,70 @@
+html, body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: rgb(43, 43, 43);
+    background-color: whitesmoke;
+
+}
+#container {
+    width: 370px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 50px 60px 50px 50px 50px 60px 50px;
+    grid-template-rows: 50px 40px 35px auto 50px auto;
+    grid-gap: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+  
+#grid-container > div {
+    text-align: center;
+    background-color:rgb(228, 228, 228);
+}
+.grid-header {
+    grid-column: span 5;
+    padding: 10px;
+    background-color:rgb(216, 216, 216) !important;
+}
+.grid-top-corner {
+    padding: 10px;
+    background-color:rgb(216, 216, 216) !important;    
+}
+.grid-time-header {
+    grid-column: span 3;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#grid-status {
+    grid-column: span 7;
+    padding: 10px;
+}
+#grid-timer {
+    grid-column: span 7;
+    padding: 10px;
+    font-size: 55px;
+}
+#btn-play {
+    grid-column: span 3;
+    padding: 10px;
+    font-size: 35px;
+}
+#btn-stop {
+    grid-column: span 2;
+    padding: 18px;
+    font-size: 20px;    
+}
+#btn-reset {
+    grid-column: span 2;
+    padding: 18px;
+    font-size: 20px;    
+}
+
+/* prevents that fontawesome destroys the on-click event of the div*/
+div > i {
+    pointer-events: none;
+} 
+
+ 
