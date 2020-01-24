@@ -67,4 +67,16 @@ div > i {
     pointer-events: none;
 } 
 
+#btn-worktime-up {
+    padding-left: 30px;
+}
+#btn-breaktime-up {
+    padding-left: 30px;
+}
+#btn-worktime-down {
+    padding-right: 30px;
+}
+#btn-breaktime-down {
+    padding-right: 30px;
+}
  
